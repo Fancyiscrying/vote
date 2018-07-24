@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>首页</title>
+<script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
+</head>
+<body>
+<div id="body" >
+{{message}}
+
+<div v-html="message2"></div>
+<a v-bind:href="message3">{{message}}</a>
+  <p v-if="seen">现在你看到我了</p>
+  
+  <a v-on:click="doSomething">23432</a>
+</div>
+
+
+<script>
+new Vue({
+	el:'#body',
+	data:{
+		message: 'zhanfei',
+		message2:'<h1>nihao</h1>',
+		message3: 'www.baidu.com',
+		seen : false
+	},
+	methods:{
+		doSomething:function(){
+			alert('haha');
+		}
+		
+	}
+})
+
+</script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: vote
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: v-zhangf46
+Implementation-Vendor-Id: com.zf.webproject
+Build-Jdk: 1.8.0_171
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/vote
+Created-By: Maven Integration for Eclipse
+
